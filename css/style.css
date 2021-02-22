@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+body{
+	font-family: 'Lato', sans-serif;
+	overflow-x:hidden;
+	color:#505962;
+
+
+}
+
+.navbar {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .1rem;
+}
+.navbar-brand img {
+    vertical-align: middle;
+    border-style: none;
+    height: 75px;
+    margin-left: 107ppx;
+    padding: -22px;
+    padding: 6px;
+    border-radius: 5px 30px 10px 21px;
+}
+.navbar-nav li{
+	padding-right:1rem;
+}
+.navbar-nav .nav-item .nav-link{
+	color:#fff;
+	padding-top: .7rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	color: #1ebba3;
+
+}
+/*landing section start*/
+.homeInner{
+		width: 100%;
+		
+		background-size:cover;
+		background-repeat: no-repeat;
+	
+}
+.homeInner.imge {
+    height: 750px;
+    width: 100%;
+}
+.home_Caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    right: 10%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.home_Caption h1 {
+    font-size: 2rem;
+    top: -12rem;
+    position: relative;
+    font-weight: 700px;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    text-shadow: 0rem 0rem 0rem black;
+    padding-bottom: 1rem;
+    color: white;
+    margin: 3px;
+    /* margin-left: -403px !important; */
+}
+
+
+.home_Caption h3 {
+    /* padding-bottom: 1rem; */
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    font-size: 1.15rem;
+    font-weight: 500;
+    /* margin-left: -256px; */
+    top: -11rem;
+    position: relative;
+}
+.btn1 {
+    color: #fff;
+    border-color: #272424;
+    border: 5px solid white;
+    color: white;
+    margin: 3px;
+    background: #455654;
+}
+/* service section strat css */
+.narrow h1 {
+    padding: .7em;
+    color: aqua;
+    text-transform: uppercase;
+    text-shadow: 0.1rem 0.1rem 0.4rem #632424;
+    font-size: 3em;
+}
+.lead{
+	text-align:justify;
+
+}
+/*style="background-image:url('img/bg.jpg');
+		background-size:cover; background-repeat: no-repeat;"
+/*end feature*/
+/*start feature*/
+h3.ami {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: red;
+    color: red;
+    color: #28bb92 !important;
+}
+.heading-underline{
+	width:3rem;
+	height: .2rem;
+	background-color: #1ebba3;
+	margin:0 auto;
+}
+
+	    .myicon {
+    color: #28BB92;
+    margin-bottom: 8px;
+}
+.heading {
+    color: #325d45;
+    font-weight: 700;
+}
+.fa-3x {
+    padding: 0px;
+    /* font-size: 3em; */
+    color: #3b28d0;
+    margin: 10px;
+}
+/*End feature*/
+
+/*  client start*/
+
+
+.clints img {
+  
+    width: 100%;
+    border-radius: 50%;
+}
+.narrow{
+	width: 75%;
+	margin:1.5rem auto;
+	paddin-top: 2rem;
+}
+.narrow h2{
+	
+	font-size:2.rem;
+	
+}
+.btn-primary{
+	border-width:medium;
+	border-radius: 0;
+	text-transform:uppercase;
+	font-size:0.6rem 1.2rem;
+	margin:1rem;
+	color:white;
+	background:green;
+	border-color:green;
+	
+} 
+.invert{
+	color: #1ebba3 !important;
+	margin: 1rem;
+}
+.clients-hr {
+    border-top: .12rem solid #1ebba3;
+  border-top: 0.5rem solid 3lebba3;
+}
+/*  client end*/
+
+
+/*footer area start*/
+
+footer{
+	background: #000000;
+	color: white;
+	padding:2rem 0 2rem;
+	margin-top:1rem;
+}
+footer img {
+    height: 9rem;
+    margin: 1.5rem 0;
+    border-radius: 50%;
+    padding: padding:4px;
+    padding: 4px;
+    border: none;
+}
+footer a{
+	color:white;
+}
+.foterSocial {
+    margin: 3px;
+    padding: 0px;
+}
+
+.foter{
+	background: #000;
+border-top:1px solid gray;
+color:#fff;
+}
+/*footer end start*/
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }e
